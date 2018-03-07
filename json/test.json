@@ -1,0 +1,66 @@
+[
+    {
+        "questions": [
+            {
+                "question": "Question One",
+                "info": "Some information about question one.",
+                "options":
+                  [
+                    "Option 1",
+                    "Option 2",
+                    "Option 3",
+                    "Option 4"
+                  ],
+                "scores":
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ]
+            },
+            {
+                "question": "Question Two",
+                "info": "Some information about question two.",
+                "options":
+                  [
+                    "Option 1",
+                    "Option 2",
+                    "Option 3",
+                    "Option 4"
+                  ],
+                "scores":
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ]
+            }
+        ]
+    },
+    {
+        "results": [
+            {
+                "title": "Terrible Score",
+                "description": "Details",                
+                "minScore": 0
+            },
+            {
+                "title": "Poor Score",
+                "description": "Details",                
+                "minScore": 2
+            },
+            {
+                "title": "Good Score",
+                "description": "Details",                
+                "minScore": 4
+            },
+            {
+                "title": "Brilliant Score",
+                "description": "Details",                
+                "minScore": 6
+            }
+        ]
+    }
+]

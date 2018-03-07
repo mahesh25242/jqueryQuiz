@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>test</title>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script
+  src="js/quiz.js"></script>
+</head>
+
+
+<body>
+
+<div class="quiz"></div>
+<div class="quiz"></div>
+
+
+<script type="text/javascript">
+$(function () {	 
+	$(".quiz").jQquiz({
+		dataSource : ['json/test.json', 'json/test1.json']
+	});
+});
+</script>
+</body>
+</html>
+
+
